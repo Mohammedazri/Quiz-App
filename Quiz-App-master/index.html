@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="block1">
+      <div id="progress">
+        <div id="progress-bar"></div>
+        <ul id="progress-num">
+          <li class="step active">1</li>
+          <li class="step">2</li>
+          <li class="step">3</li>
+          <li class="step">4</li>
+          <li class="step">5</li>
+        </ul>
+      </div>
+      <button id="progress-prev" class="btn" disabled>Prev</button>
+      <button id="progress-next" class="btn">Next</button>
+    </div>
+    <br />
+
+    <div class="block2">
+    <div class="quiz-container">
+        <div class="quiz-header">
+      <h2 id="question">Question text</h2>     
+      <ul>
+        <li>
+          <input type="radio" class="answer" id="a" name="answer"/>
+          <label id="a_text" for="a_text">Question</label>
+        </li>
+        <li>  <input type="radio" class="answer" id="b" name="answer"/>
+          <label id="b_text" for="b_text">Question</label></li>
+
+        <li>  <input type="radio" class="answer" id="c" name="answer"/>
+          <label id="c_text" for="c_text">Question</label></li>
+
+        <li>  <input type="radio" class="answer" id="d" name="answer"/>
+          <label id="d_text" for="d_text">Question</label></li>
+      </ul>
+ </div>
+      <button id="submit">Submit</button></button>
+    </div></div>
+    
+    <script src="index.js"></script>
+    
+
+
+  </div>
+  </body>
+</html>
