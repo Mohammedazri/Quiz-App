@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    font-family: "Poppins",sans-serif;
+    background-color: #fad0c4;
+background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+/* here body is the parent element so we use flex there */
+.quiz-container{
+    background: #ffff;
+    /* padding: 2% 3%; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100,100,100,0.2);
+    width: 600px;
+    max-width: 100%;
+    overflow:hidden;
+
+}
+.quiz-header{
+    padding: 4rem;
+}
+ul li{
+    margin: 1rem 0;
+    font-size:1.1rem;
+    
+}
+ul li label{
+    cursor:pointer;
+}
+input{
+    cursor:pointer;
+}
+h2{
+margin-bottom: 0.5rem;
+font-weight:bold;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+button{
+    background-color: #8e44ad;
+    width:100%;
+    padding: 2rem;
+    display:block;
+    color:white;
+    font-family: inherit;
+    border:none;
+    font-size: 1.2rem;
+    padding: 1.3rem;
+}
+button:hover{
+    background-color:#732d91;
+    cursor:pointer;
+}
